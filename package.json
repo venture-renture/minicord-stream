@@ -47,3 +47,10 @@
     "npm": "^6.7.0"
   }
 }
+
+{
+  "scripts": {
+    "start": "node server.js",
+    "build": "react-scripts build"
+  }
+}
