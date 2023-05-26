@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 const config = require('./config');
 
-config.dbURL = "mongodb+srv://admin:spacecadet@cluster0.kqtpmcc.mongodb.net/?retryWrites=true&w=majority"
+config.dbURL = "mongodb+srv://adminuser:spacecadet@minicord.li9diyd.mongodb.net/?retryWrites=true&w=majority"
 
-mongoose.connect('mongodb+srv://admin:spacecadet@cluster0.kqtpmcc.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://adminuser:spacecadet@minicord.li9diyd.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
